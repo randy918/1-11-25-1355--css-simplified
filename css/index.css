@@ -1,1 +1,21 @@
-/*# sourceMappingURL=index.css.map */
+.flex__container {
+  display: flex;
+  background-color: lightyellow;
+}
+
+.flex__item {
+  border: 6px solid red;
+  background-color: gray;
+  width: 7.5vw;
+  color: yellow;
+  margin: 1vw;
+}
+.flex__item--1 {
+  height: 5vw;
+}
+.flex__item--2 {
+  height: 10vw;
+}
+.flex__item--3 {
+  height: 15vw;
+}/*# sourceMappingURL=index.css.map */
