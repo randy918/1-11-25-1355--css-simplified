@@ -1,4 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+:root {
+  --border-s: .1vw;
+  --border-m: .5vw;
+  --fontsize-s: 1vw;
+  --fontsize-m: 1.5vw;
+  --fontsize-l: 3vw;
+  --fontsize-xl: 4.5vw;
+  --fontsize-xxl: 6vw;
+  --distance-s: .5vw;
+  --distance-m: 1.5vw;
+  --distance-l: 3vw;
+  --margin-s: .5vw;
+  --margin-m: 1.5vw;
+  --margin-l: 3vw;
+  --padding-s: .5vw;
+  --padding-m: 1.5vw;
+  --padding-l: 3vw;
+  --radius-s: .5vw;
+  --radius-m: 1.5vw;
+  --theBackground: hsla(29, 49%, 89%, 1);
+  --theGray: hsla(211, 23%, 61%, 1);
+  --theGreen: hsl(135, 100%, 34%);
+  --theRed: hsla(358, 61%, 47%, 1);
+  --theYellow: hsla(37, 65%, 90%, 1);
+  --modalBackground: hsla(0, 0%, 33%, 1);
+}
+
 @font-face {
   font-family: "bold";
   src: url("../fonts/FiraSans-Black.ttf");
@@ -27,7 +54,7 @@ h1 {
 
 h2 {
   font-family: "very-light";
-  font-size: 6vw;
+  font-size: 30vw;
   color: rgba(255, 255, 255, 0.75);
   letter-spacing: -4vw;
 }
@@ -46,7 +73,7 @@ h4 {
 
 p {
   font-family: "light";
-  font-size: 1.5vw;
+  font-size: 3vw;
   color: white;
 }
 
