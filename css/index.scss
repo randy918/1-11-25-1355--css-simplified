@@ -157,15 +157,33 @@
     justify-content: space-between;
     background-color: red;
     height: 6vw;
+    padding-left: 0cqw;
+    padding-right: 0vw;
+}
+
+.nav3__brand {
+    display: flex;
+    align-items: center;
     padding-left: 4vw;
     padding-right: 4vw;
+    height: 100%;
+}
+
+.nav3__brand:hover {
+    display: flex;
+    align-items: center;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    height: 100%;
+    background-color: pink;
+    color: purple;
 }
 
 .nav3__items {
     display: flex;
     justify-content: space-between;
-    
-
+    align-items: stretch;
+    height: 6vw;
 
 }
 
@@ -173,7 +191,18 @@
 
     padding-left: 3vw;
     padding-right: 3vw;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nav3__item:hover {
+
+    padding-left: 3vw;
+    padding-right: 3vw;
     align-self: center;
+    background-color: pink;
+    color: purple;
 
 }
 
