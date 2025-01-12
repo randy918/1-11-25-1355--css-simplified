@@ -1,218 +1,33 @@
-//>  ████████████████████████████████████  NAV
 
-.nav__container {
 
-    display: flex;
-    background-color: yellow;
+.grid__container {
 
-}
-
-.nav__brand {
-
-    border-style: solid;
-    border-color: green;
-
-}
-
-.nav__ul {
-    display: flex;
-    list-style-type: none;
-    border-style: solid;
-    border-color: green;
-    justify-content: center;
-
-}
-
-.nav__li {}
-
-.nav__li--home {}
-
-.nav__li--pricing {}
-
-.nav__li--about {}
-
-.nav__li--contact {}
-
-//>  ████████████████████████████████████  DIV TEMP
-
-.flex__container {
-
-    display: flex;
-    background-color: red;
-    justify-content: space-between;
-    align-items: stretch;
 
 
 }
 
-.flex__brand {
-    height: 8vw;
-    display: flex;
-    border-style: solid;
-    border-color: green;
-    align-items: center;
-    padding-left: 4vw;
-    padding-right: 4vw;
+.grid__item {
+
+border: var(--border-m) solid var(--coolGrey700);
+background-color: var(--coolGrey300);
+color: var(--coolGrey900);
 
 }
 
-.flex__ul {
-    display: flex;
-    align-items: center;
-    /* Center the list items vertically */
-    margin: 0;
-    /* Remove default margin */
-    padding: 0;
-    /* Remove default padding */
-    height: 100%;
-    border-style: solid;
-    border-color: green;
-    align-items: stretch;
+.grid__item1 {
 
-
-    // justify-content: space-between;
-
-}
-
-.flex__li {}
-
-.flex__li--home {}
-
-.flex__li--pricing {}
-
-.flex__li--about {}
-
-.flex__li--contact {}
-
-//>  ████████████████████████████████████  NAV2
-
-.nav2__container {
-
-    display: flex;
-    background-color: red;
-    justify-content: space-between;
-    align-items: stretch;
-    height: 8vw;
 
 
 }
 
-.nav2__brand {
-    height: 8vw;
-    display: flex;
-    border-style: solid;
-    border-color: green;
-    align-items: center;
-    padding-left: 4vw;
-    padding-right: 4vw;
+.grid__item2 {
+
+
 
 }
 
-.nav2 {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    border-style: solid;
-    border-color: green;
-    flex-direction: row;
-    width: 60vw;
-    justify-content: space-between;
+.grid__item3 {
 
 
-    // justify-content: space-between;
 
 }
-
-.nav2__item {
-    display: flex;
-    align-items: center;
-    border-style: solid;
-    border-color: green;
-    height: 100%;
-    padding: 0 1vw;
-}
-
-.nav2--home {
-    height: 100%;
-}
-
-.nav2--pricing {
-    height: 100%;
-}
-
-.nav2--about {
-    height: 100%;
-}
-
-.nav2--contact {
-    height: 100%;
-}
-
-//>  ████████████████████████████████████  NAV3
-
-.nav3__container {
-    display: flex;
-    justify-content: space-between;
-    background-color: red;
-    height: 6vw;
-    padding-left: 0cqw;
-    padding-right: 0vw;
-}
-
-.nav3__brand {
-    display: flex;
-    align-items: center;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    height: 100%;
-}
-
-.nav3__brand:hover {
-    display: flex;
-    align-items: center;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    height: 100%;
-    background-color: pink;
-    color: purple;
-}
-
-.nav3__items {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    height: 6vw;
-
-}
-
-.nav3__item {
-
-    padding-left: 3vw;
-    padding-right: 3vw;
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-
-.nav3__item:hover {
-
-    padding-left: 3vw;
-    padding-right: 3vw;
-    align-self: center;
-    background-color: pink;
-    color: purple;
-
-}
-
-
-//_  ████████████████████████████████████  768
-
-@media (min-width: 768px) {}
-
-
-//_  ████████████████████████████████████  1024
-
-
-@media (min-width: 1024px) {}

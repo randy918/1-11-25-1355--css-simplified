@@ -21,9 +21,27 @@
   --theBackground: hsla(29, 49%, 89%, 1);
   --theGray: hsla(211, 23%, 61%, 1);
   --theGreen: hsl(135, 100%, 34%);
+  --theOrange: hsl(24, 100%, 50%);
   --theRed: hsla(358, 61%, 47%, 1);
-  --theYellow: hsla(37, 65%, 90%, 1);
-  --modalBackground: hsla(0, 0%, 33%, 1);
+  --theYellow: hsl(43, 92%, 49%);
+  --modalBackground: hsl(0, 0%, 33%);
+  --coolGrey50: hsl(216, 33%, 97%);
+  --coolGrey100: hsl(214, 15%, 91%);
+  --coolGrey200: hsl(210, 16%, 82%);
+  --coolGrey300: hsl(211, 13%, 65%);
+  --coolGrey400: hsl(211, 10%, 53%);
+  --coolGrey500: hsl(211, 12%, 43%);
+  --coolGrey600: hsl(209, 14%, 37%);
+  --coolGrey700: hsl(209, 18%, 30%);
+  --coolGrey800: hsl(209, 20%, 25%);
+  --coolGrey900: hsl(210, 24%, 16%);
+  --grey200: hsl(0, 0%, 100%);
+  --grey400: hsl(0, 0%, 67%);
+  --grey600: hsl(0, 0%, 24%);
+  --grey800: hsl(0, 0%, 13%);
+  --grey1000: hsl(0, 0%, 9%);
+  --grey5000: hsl(0, 0%, 5%);
+  --grey10000: hsl(0, 0%, 0%);
 }
 
 @font-face {
@@ -55,7 +73,7 @@ h1 {
 
 h2 {
   font-family: "very-light";
-  font-size: 30vw;
+  font-size: 6vw;
   color: rgba(255, 255, 255, 0.75);
   letter-spacing: -4vw;
 }
