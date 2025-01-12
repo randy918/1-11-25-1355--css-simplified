@@ -114,8 +114,8 @@ $colors: (
   
   text-align: center;
   
-  
-  // border: 1px solid #999;
+  transition: all 0.3s ease;
+
 }
 
 //>  ████████████████████████████████████  BODY
@@ -154,7 +154,7 @@ h4 {
 
   font-family: "bold";
   font-size: 2vw;
-  color: rgba($color: #FFFFFF, $alpha: 0.5);
+  color: rgba($color: #FFFFFF, $alpha: 0.75);
 
 }
 
