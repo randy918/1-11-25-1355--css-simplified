@@ -77,6 +77,10 @@ p {
   color: white;
 }
 
+a {
+  text-decoration: none; /* Remove underlining from all links */
+}
+
 .white {
   color: white;
 }/*# sourceMappingURL=universal.css.map */
